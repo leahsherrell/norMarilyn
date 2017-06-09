@@ -25,14 +25,28 @@
 .card {
   height: 100vw; }
 
-@media (min-width: 426px) {
+@media (min-width: 445px) {
   .container {
     height: 85vh; }
 
   .card {
-    width: calc(33.33333% - 26.66667px);
+    width: calc(33.33333%);
     float: left;
-    margin-left: 20px;
+    margin-left: 0;
     height: 50%; } }
+@media (min-width: 960px) {
+  .banner {
+    width: calc(16.66667%);
+    float: left;
+    margin-left: 0;
+    height: 100vh; }
+
+  .container {
+    height: 100vh; }
+
+  .card {
+    width: calc(27.775%);
+    float: left;
+    margin-left: 0; } }
 
 /*# sourceMappingURL=main.css.map */

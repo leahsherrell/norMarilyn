@@ -1,5 +1,10 @@
+// media query variables
 $above-mobile: (
-  // columns:12,
-  // gutters: 0px,
-  media: "(min-width: 426px)"
+  media: "(min-width: 445px)",
+  gutter: 0
+);
+
+$above-tablet: (
+  media: "(min-width: 960px)",
+  gutter: 0
 );
