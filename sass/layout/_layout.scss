@@ -1,9 +1,6 @@
 @include responsive-wireframe;
 
 // container
-// .container {
-//
-// }
 
 .container > * {
   width: 100vw;
@@ -12,7 +9,13 @@
 // banner
 .banner {
   height: 90px;
+  position: relative;
 }
+
+.banner h1 {
+  @include center;
+}
+
 // main-body
 .long-card {
   height: 128vw;
