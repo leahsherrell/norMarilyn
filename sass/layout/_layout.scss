@@ -1,0 +1,23 @@
+@include responsive-wireframe;
+
+// container
+// .container {
+//
+// }
+
+.container > * {
+  width: 100vw;
+}
+
+// banner
+.banner {
+  height: 90px;
+}
+// main-body
+.long-card {
+  height: 128vw;
+}
+
+.square-card {
+  height: 100vw;
+}
