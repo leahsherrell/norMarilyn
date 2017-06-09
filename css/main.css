@@ -13,7 +13,7 @@
   width: 100vw; }
 
 .banner {
-  height: 90px;
+  height: 15vh;
   position: relative; }
 
 .banner h1 {
@@ -22,10 +22,17 @@
   left: 50%;
   transform: translate(-50%, -50%); }
 
-.long-card {
-  height: 128vw; }
-
-.square-card {
+.card {
   height: 100vw; }
+
+@media (min-width: 426px) {
+  .container {
+    height: 85vh; }
+
+  .card {
+    width: calc(33.33333% - 26.66667px);
+    float: left;
+    margin-left: 20px;
+    height: 50%; } }
 
 /*# sourceMappingURL=main.css.map */

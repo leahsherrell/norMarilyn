@@ -8,7 +8,7 @@
 
 // banner
 .banner {
-  height: 90px;
+  height: 15vh;
   position: relative;
 }
 
@@ -17,10 +17,21 @@
 }
 
 // main-body
-.long-card {
-  height: 128vw;
+
+
+.card {
+  height: 100vw;
 }
 
-.square-card {
-  height: 100vw;
+// media queries
+@include grid-media($above-mobile) {
+
+  .container {
+    height: 85vh;
+  }
+  .card {
+    @include grid-column(4 of 12);
+    height: 50%;
+  }
+
 }
