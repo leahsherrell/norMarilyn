@@ -1,23 +1,18 @@
-@charset 'UTF-8';
 
 @import
-  'sass/vendor/normalize';
-@import
-  'sass/vendor/bourbon/bourbon';
-@import
-  'sass/vendor/neat/neat';
+  'vendor/bourbon/bourbon',
+  'vendor/neat/neat';
 
 @import
-  'sass/abstracts/variables',
-  'sass/abstracts/functions',
-  'sass/abstracts/mixins';
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
 
 @import
-  'sass/base/base',
-  'sass/base/fonts',
-  'sass/base/typography',
-  'sass/base/helpers';
+  'base/base',
+  'base/fonts',
+  'base/typography',
+  'base/helpers';
 
 @import
-  'sass/layout/banner',
-  'sass/layout/body';
+  'layout/layout';
