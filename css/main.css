@@ -1,3 +1,25 @@
+.container > * {
+  background-size: cover;
+  background-position: center; }
+
+.one {
+  background-image: url(../img/1957.jpg); }
+
+.two {
+  background-image: url(../img/beachNorma.jpg); }
+
+.three {
+  background-image: url(../img/betterhat.jpg); }
+
+.four {
+  background-image: url(../img/pink.jpg); }
+
+.five {
+  background-image: url(../img/beachlast.jpg); }
+
+.six {
+  background-image: url(../img/blueReading.jpg); }
+
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
