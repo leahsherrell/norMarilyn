@@ -1,23 +1,23 @@
 @charset 'UTF-8';
 
-// 1. Configuration and helpers
 @import
-  'abstracts/variables',
-  'abstracts/functions',
-  'abstracts/mixins';
+  'sass/vendor/normalize';
+@import
+  'sass/vendor/bourbon/bourbon';
+@import
+  'sass/vendor/neat/neat';
 
-// 2. Vendors
 @import
-  'vendor/normalize';
+  'sass/abstracts/variables',
+  'sass/abstracts/functions',
+  'sass/abstracts/mixins';
 
-// 3. Base stuff
 @import
-  'base/base',
-  'base/fonts',
-  'base/typography',
-  'base/helpers';
+  'sass/base/base',
+  'sass/base/fonts',
+  'sass/base/typography',
+  'sass/base/helpers';
 
-// 4. Layout/Neat-related sections
 @import
-  'layout/banner',
-  'layout/body';
+  'sass/layout/banner',
+  'sass/layout/body';
