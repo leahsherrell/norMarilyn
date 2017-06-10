@@ -10,13 +10,13 @@
 .banner {
   height: 15vh;
   position: relative;
-  background-color: #fcd9c0;
+  background-color: #2c2c2c;
   opacity: .7;
 }
 
 .banner h1 {
   @include center;
-  background-color: #fcd9c0;
+  color: #fcd9c0;
 }
 
 // main-body
@@ -47,7 +47,10 @@
     background-size: cover;
     background-position: center;
     opacity: .7;
-
+    & h1 {
+      background-color: #fcd9c0;
+      color: #2c2c2c;
+    }
   }
 
   .container {
