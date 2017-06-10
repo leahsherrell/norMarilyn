@@ -1,4 +1,4 @@
-@include responsive-wireframe;
+
 
 // container
 
@@ -10,10 +10,13 @@
 .banner {
   height: 15vh;
   position: relative;
+  background-color: #fcd9c0;
+  opacity: .7;
 }
 
 .banner h1 {
   @include center;
+  background-color: #fcd9c0;
 }
 
 // main-body
@@ -40,6 +43,11 @@
   .banner {
     @include grid-column(2);
     height: 100vh;
+    background-image: url(../img/faceinhand.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: .7;
+
   }
 
   .container {
